@@ -80,8 +80,8 @@ def get_forecast(lat,lon):
 
 
 # bot parameters
-token = '8075502096:AAHMwGuS1KACfrBbWKoDHhixpku9_PxT4qs'
-tg_bot_url = 'https://api.telegram.org/bot8075502096:AAHMwGuS1KACfrBbWKoDHhixpku9_PxT4qs'
+token = ''
+tg_bot_url = ''
 
 
 # Commands
@@ -152,4 +152,5 @@ if __name__ == '__main__':
 
     app.add_error_handler(error)
     print('ammmmmm')
+
     app.run_polling(poll_interval=5)
